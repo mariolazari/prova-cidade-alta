@@ -1,0 +1,32 @@
+.containerSocial{
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+}
+
+.socialInstagram, .socialLinkdIn, .socialEmail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.textSocial{
+    display: flex;
+    margin-left: 5px;
+}
+
+.socialInstagram:hover{
+    color: brown;
+}
+
+.socialLinkdIn:hover{
+    color: #61dafb;
+}
+
+.socialEmail:hover{
+    color: coral;
+}

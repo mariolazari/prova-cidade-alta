@@ -1,0 +1,104 @@
+.message {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.containerIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 1s infinite;
+}
+
+.iconError{
+    display: flex;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.iconSuccess{
+    display: flex;
+    color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    color: green;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    animation: shake 0.5s ease-in-out;
+}
+
+.buttonMiniGame {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.icon{
+    color: black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.icon:hover{
+    animation: rotateIcon 1s linear infinite;
+}
+
+.textButton{
+    display: flex;
+    margin-left: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}

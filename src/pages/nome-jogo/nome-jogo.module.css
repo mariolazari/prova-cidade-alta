@@ -1,0 +1,85 @@
+.containerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.iconPlay {
+    display: flex;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.iconPlay:hover {
+    animation: pulse 1s infinite;
+}
+
+
+.icon{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.inputIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonMiniGame {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textButton{
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+}

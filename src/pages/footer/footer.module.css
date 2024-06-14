@@ -1,0 +1,22 @@
+.containerCopyright {
+    width: 100%;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.copyright {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+}
+
+.textCopyright{
+    display: flex;
+    margin-left: 5px;
+}
